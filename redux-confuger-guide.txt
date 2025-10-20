@@ -1,0 +1,12 @@
+1. just copy this folder and pest it in side of the src folder
+2.npm install
+3. bind the  main.jsx by  store and PersistGate 
+here is the demo 
+
+<StrictMode>
+    <Provider store={store}>
+      <PersistGate loading={null} persistor={persistor}>
+        <RouterProvider router={routes} />
+      </PersistGate>
+    </Provider>
+  </StrictMode>
